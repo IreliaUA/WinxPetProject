@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AB5277D2AEA845C0023F063 /* HelloVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5277C2AEA845C0023F063 /* HelloVCPresenter.swift */; };
+		2AB5277F2AEA858A0023F063 /* ChoiceVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5277E2AEA858A0023F063 /* ChoiceVCPresenter.swift */; };
+		2AB527812AEA869B0023F063 /* FinalVCPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527802AEA869A0023F063 /* FinalVCPresenter.swift */; };
+		2AB527922AF156D10023F063 /* HelloRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527912AF156D10023F063 /* HelloRouter.swift */; };
+		2AB527942AF156E10023F063 /* HelloAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527932AF156E10023F063 /* HelloAssembly.swift */; };
+		2AB527962AF156F00023F063 /* HelloViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527952AF156F00023F063 /* HelloViewModelFactory.swift */; };
+		2AB527982AF158E60023F063 /* HelloViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527972AF158E60023F063 /* HelloViewModel.swift */; };
+		2AB5279A2AF15BBE0023F063 /* ChoiceVCAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527992AF15BBE0023F063 /* ChoiceVCAssembly.swift */; };
+		2AB527A22AF15DAE0023F063 /* TestingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5279B2AF15DAE0023F063 /* TestingRouter.swift */; };
+		2AB527A32AF15DAE0023F063 /* TestingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5279C2AF15DAE0023F063 /* TestingViewController.swift */; };
+		2AB527A42AF15DAE0023F063 /* TestingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB5279D2AF15DAE0023F063 /* TestingViewController.xib */; };
+		2AB527A52AF15DAE0023F063 /* TestingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5279E2AF15DAE0023F063 /* TestingPresenter.swift */; };
+		2AB527A62AF15DAE0023F063 /* TestingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB5279F2AF15DAE0023F063 /* TestingViewModel.swift */; };
+		2AB527A72AF15DAE0023F063 /* TestingAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527A02AF15DAE0023F063 /* TestingAssembly.swift */; };
+		2AB527A82AF15DAE0023F063 /* TestingViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527A12AF15DAE0023F063 /* TestingViewModelFactory.swift */; };
+		2AB527AE2AF402DC0023F063 /* ChoiceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527A92AF402DC0023F063 /* ChoiceRouter.swift */; };
+		2AB527B02AF402DC0023F063 /* ChoiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527AB2AF402DC0023F063 /* ChoiceViewModel.swift */; };
+		2AB527B22AF402DC0023F063 /* ChoiceViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB527AD2AF402DC0023F063 /* ChoiceViewModelFactory.swift */; };
+		2AB6DF5C2AC5700000144DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6DF5B2AC5700000144DAA /* AppDelegate.swift */; };
+		2AB6DF5E2AC5700000144DAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6DF5D2AC5700000144DAA /* SceneDelegate.swift */; };
+		2AB6DF652AC5700100144DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB6DF642AC5700100144DAA /* Assets.xcassets */; };
+		2AB6DF682AC5700100144DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB6DF662AC5700100144DAA /* LaunchScreen.storyboard */; };
+		2AB6DF742ACDC26200144DAA /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6DF722ACDC26200144DAA /* HelloViewController.swift */; };
+		2AB6DF752ACDC26200144DAA /* HelloViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB6DF732ACDC26200144DAA /* HelloViewController.xib */; };
+		2AB6DF782ACDC28B00144DAA /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6DF762ACDC28B00144DAA /* ChoiceViewController.swift */; };
+		2AB6DF792ACDC28B00144DAA /* ChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB6DF772ACDC28B00144DAA /* ChoiceViewController.xib */; };
+		2AB6DF7C2ACDC2A600144DAA /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6DF7A2ACDC2A600144DAA /* FinalViewController.swift */; };
+		2AB6DF7D2ACDC2A600144DAA /* FinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB6DF7B2ACDC2A600144DAA /* FinalViewController.xib */; };
+		2AD8F2AE2AF40F1700F506D0 /* FinalVCAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8F2AD2AF40F1700F506D0 /* FinalVCAssembly.swift */; };
+		2AD8F2B02AF413FF00F506D0 /* FinalRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8F2AF2AF413FF00F506D0 /* FinalRouter.swift */; };
+		2AD8F2B22AF4141800F506D0 /* FinalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8F2B12AF4141800F506D0 /* FinalViewModel.swift */; };
+		2AD8F2B42AF4142F00F506D0 /* FinalViewModelFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD8F2B32AF4142F00F506D0 /* FinalViewModelFactory.swift */; };
+		2AF15C882AD168B100383061 /* ModelWinx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF15C872AD168B100383061 /* ModelWinx.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AB5277C2AEA845C0023F063 /* HelloVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloVCPresenter.swift; sourceTree = "<group>"; };
+		2AB5277E2AEA858A0023F063 /* ChoiceVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceVCPresenter.swift; sourceTree = "<group>"; };
+		2AB527802AEA869A0023F063 /* FinalVCPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalVCPresenter.swift; sourceTree = "<group>"; };
+		2AB527912AF156D10023F063 /* HelloRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloRouter.swift; sourceTree = "<group>"; };
+		2AB527932AF156E10023F063 /* HelloAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloAssembly.swift; sourceTree = "<group>"; };
+		2AB527952AF156F00023F063 /* HelloViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewModelFactory.swift; sourceTree = "<group>"; };
+		2AB527972AF158E60023F063 /* HelloViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewModel.swift; sourceTree = "<group>"; };
+		2AB527992AF15BBE0023F063 /* ChoiceVCAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceVCAssembly.swift; sourceTree = "<group>"; };
+		2AB5279B2AF15DAE0023F063 /* TestingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingRouter.swift; sourceTree = "<group>"; };
+		2AB5279C2AF15DAE0023F063 /* TestingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewController.swift; sourceTree = "<group>"; };
+		2AB5279D2AF15DAE0023F063 /* TestingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestingViewController.xib; sourceTree = "<group>"; };
+		2AB5279E2AF15DAE0023F063 /* TestingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingPresenter.swift; sourceTree = "<group>"; };
+		2AB5279F2AF15DAE0023F063 /* TestingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewModel.swift; sourceTree = "<group>"; };
+		2AB527A02AF15DAE0023F063 /* TestingAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAssembly.swift; sourceTree = "<group>"; };
+		2AB527A12AF15DAE0023F063 /* TestingViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingViewModelFactory.swift; sourceTree = "<group>"; };
+		2AB527A92AF402DC0023F063 /* ChoiceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceRouter.swift; sourceTree = "<group>"; };
+		2AB527AB2AF402DC0023F063 /* ChoiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewModel.swift; sourceTree = "<group>"; };
+		2AB527AD2AF402DC0023F063 /* ChoiceViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewModelFactory.swift; sourceTree = "<group>"; };
+		2AB6DF582AC5700000144DAA /* WinxSelected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinxSelected.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB6DF5B2AC5700000144DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AB6DF5D2AC5700000144DAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AB6DF642AC5700100144DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB6DF672AC5700100144DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AB6DF692AC5700100144DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB6DF722ACDC26200144DAA /* HelloViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		2AB6DF732ACDC26200144DAA /* HelloViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelloViewController.xib; sourceTree = "<group>"; };
+		2AB6DF762ACDC28B00144DAA /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		2AB6DF772ACDC28B00144DAA /* ChoiceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChoiceViewController.xib; sourceTree = "<group>"; };
+		2AB6DF7A2ACDC2A600144DAA /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
+		2AB6DF7B2ACDC2A600144DAA /* FinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FinalViewController.xib; sourceTree = "<group>"; };
+		2AD8F2AD2AF40F1700F506D0 /* FinalVCAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalVCAssembly.swift; sourceTree = "<group>"; };
+		2AD8F2AF2AF413FF00F506D0 /* FinalRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalRouter.swift; sourceTree = "<group>"; };
+		2AD8F2B12AF4141800F506D0 /* FinalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewModel.swift; sourceTree = "<group>"; };
+		2AD8F2B32AF4142F00F506D0 /* FinalViewModelFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewModelFactory.swift; sourceTree = "<group>"; };
+		2AF15C872AD168B100383061 /* ModelWinx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWinx.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB6DF552AC5700000144DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB527822AF153900023F063 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				2AB5279B2AF15DAE0023F063 /* TestingRouter.swift */,
+				2AB5279C2AF15DAE0023F063 /* TestingViewController.swift */,
+				2AB5279D2AF15DAE0023F063 /* TestingViewController.xib */,
+				2AB5279E2AF15DAE0023F063 /* TestingPresenter.swift */,
+				2AB5279F2AF15DAE0023F063 /* TestingViewModel.swift */,
+				2AB527A02AF15DAE0023F063 /* TestingAssembly.swift */,
+				2AB527A12AF15DAE0023F063 /* TestingViewModelFactory.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		2AB6DF4F2AC5700000144DAA = {
+			isa = PBXGroup;
+			children = (
+				2AB6DF5A2AC5700000144DAA /* WinxSelected */,
+				2AB6DF592AC5700000144DAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB6DF592AC5700000144DAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6DF582AC5700000144DAA /* WinxSelected.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB6DF5A2AC5700000144DAA /* WinxSelected */ = {
+			isa = PBXGroup;
+			children = (
+				2AB527822AF153900023F063 /* Text */,
+				2AB6DF7E2ACDCF7900144DAA /* Model */,
+				2AB6DF712ACDC22F00144DAA /* Third */,
+				2AB6DF702ACDC21E00144DAA /* Second */,
+				2AB6DF6F2ACDC1ED00144DAA /* First */,
+				2AB6DF5B2AC5700000144DAA /* AppDelegate.swift */,
+				2AB6DF5D2AC5700000144DAA /* SceneDelegate.swift */,
+				2AB6DF642AC5700100144DAA /* Assets.xcassets */,
+				2AB6DF662AC5700100144DAA /* LaunchScreen.storyboard */,
+				2AB6DF692AC5700100144DAA /* Info.plist */,
+			);
+			path = WinxSelected;
+			sourceTree = "<group>";
+		};
+		2AB6DF6F2ACDC1ED00144DAA /* First */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6DF722ACDC26200144DAA /* HelloViewController.swift */,
+				2AB5277C2AEA845C0023F063 /* HelloVCPresenter.swift */,
+				2AB6DF732ACDC26200144DAA /* HelloViewController.xib */,
+				2AB527912AF156D10023F063 /* HelloRouter.swift */,
+				2AB527932AF156E10023F063 /* HelloAssembly.swift */,
+				2AB527952AF156F00023F063 /* HelloViewModelFactory.swift */,
+				2AB527972AF158E60023F063 /* HelloViewModel.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		2AB6DF702ACDC21E00144DAA /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6DF762ACDC28B00144DAA /* ChoiceViewController.swift */,
+				2AB5277E2AEA858A0023F063 /* ChoiceVCPresenter.swift */,
+				2AB6DF772ACDC28B00144DAA /* ChoiceViewController.xib */,
+				2AB527992AF15BBE0023F063 /* ChoiceVCAssembly.swift */,
+				2AB527A92AF402DC0023F063 /* ChoiceRouter.swift */,
+				2AB527AB2AF402DC0023F063 /* ChoiceViewModel.swift */,
+				2AB527AD2AF402DC0023F063 /* ChoiceViewModelFactory.swift */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		2AB6DF712ACDC22F00144DAA /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6DF7A2ACDC2A600144DAA /* FinalViewController.swift */,
+				2AB527802AEA869A0023F063 /* FinalVCPresenter.swift */,
+				2AB6DF7B2ACDC2A600144DAA /* FinalViewController.xib */,
+				2AD8F2AD2AF40F1700F506D0 /* FinalVCAssembly.swift */,
+				2AD8F2AF2AF413FF00F506D0 /* FinalRouter.swift */,
+				2AD8F2B12AF4141800F506D0 /* FinalViewModel.swift */,
+				2AD8F2B32AF4142F00F506D0 /* FinalViewModelFactory.swift */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		2AB6DF7E2ACDCF7900144DAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AF15C872AD168B100383061 /* ModelWinx.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB6DF572AC5700000144DAA /* WinxSelected */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB6DF6C2AC5700100144DAA /* Build configuration list for PBXNativeTarget "WinxSelected" */;
+			buildPhases = (
+				2AB6DF542AC5700000144DAA /* Sources */,
+				2AB6DF552AC5700000144DAA /* Frameworks */,
+				2AB6DF562AC5700000144DAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinxSelected;
+			productName = WinxSelected;
+			productReference = 2AB6DF582AC5700000144DAA /* WinxSelected.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB6DF502AC5700000144DAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2AB6DF572AC5700000144DAA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2AB6DF532AC5700000144DAA /* Build configuration list for PBXProject "WinxSelected" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB6DF4F2AC5700000144DAA;
+			productRefGroup = 2AB6DF592AC5700000144DAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB6DF572AC5700000144DAA /* WinxSelected */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB6DF562AC5700000144DAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB6DF752ACDC26200144DAA /* HelloViewController.xib in Resources */,
+				2AB527A42AF15DAE0023F063 /* TestingViewController.xib in Resources */,
+				2AB6DF682AC5700100144DAA /* LaunchScreen.storyboard in Resources */,
+				2AB6DF652AC5700100144DAA /* Assets.xcassets in Resources */,
+				2AB6DF792ACDC28B00144DAA /* ChoiceViewController.xib in Resources */,
+				2AB6DF7D2ACDC2A600144DAA /* FinalViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB6DF542AC5700000144DAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB6DF7C2ACDC2A600144DAA /* FinalViewController.swift in Sources */,
+				2AB527A52AF15DAE0023F063 /* TestingPresenter.swift in Sources */,
+				2AB527922AF156D10023F063 /* HelloRouter.swift in Sources */,
+				2AB6DF742ACDC26200144DAA /* HelloViewController.swift in Sources */,
+				2AB527A32AF15DAE0023F063 /* TestingViewController.swift in Sources */,
+				2AB6DF5C2AC5700000144DAA /* AppDelegate.swift in Sources */,
+				2AF15C882AD168B100383061 /* ModelWinx.swift in Sources */,
+				2AB527AE2AF402DC0023F063 /* ChoiceRouter.swift in Sources */,
+				2AB527A22AF15DAE0023F063 /* TestingRouter.swift in Sources */,
+				2AD8F2B42AF4142F00F506D0 /* FinalViewModelFactory.swift in Sources */,
+				2AB527B22AF402DC0023F063 /* ChoiceViewModelFactory.swift in Sources */,
+				2AB527B02AF402DC0023F063 /* ChoiceViewModel.swift in Sources */,
+				2AD8F2AE2AF40F1700F506D0 /* FinalVCAssembly.swift in Sources */,
+				2AB6DF5E2AC5700000144DAA /* SceneDelegate.swift in Sources */,
+				2AB527982AF158E60023F063 /* HelloViewModel.swift in Sources */,
+				2AB6DF782ACDC28B00144DAA /* ChoiceViewController.swift in Sources */,
+				2AD8F2B22AF4141800F506D0 /* FinalViewModel.swift in Sources */,
+				2AB527812AEA869B0023F063 /* FinalVCPresenter.swift in Sources */,
+				2AB527962AF156F00023F063 /* HelloViewModelFactory.swift in Sources */,
+				2AD8F2B02AF413FF00F506D0 /* FinalRouter.swift in Sources */,
+				2AB527A72AF15DAE0023F063 /* TestingAssembly.swift in Sources */,
+				2AB527942AF156E10023F063 /* HelloAssembly.swift in Sources */,
+				2AB5277F2AEA858A0023F063 /* ChoiceVCPresenter.swift in Sources */,
+				2AB527A62AF15DAE0023F063 /* TestingViewModel.swift in Sources */,
+				2AB5277D2AEA845C0023F063 /* HelloVCPresenter.swift in Sources */,
+				2AB527A82AF15DAE0023F063 /* TestingViewModelFactory.swift in Sources */,
+				2AB5279A2AF15BBE0023F063 /* ChoiceVCAssembly.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AB6DF662AC5700100144DAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB6DF672AC5700100144DAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB6DF6A2AC5700100144DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AB6DF6B2AC5700100144DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB6DF6D2AC5700100144DAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WinxSelected/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asasd.WinxSelected;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2AB6DF6E2AC5700100144DAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WinxSelected/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asasd.WinxSelected;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB6DF532AC5700000144DAA /* Build configuration list for PBXProject "WinxSelected" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB6DF6A2AC5700100144DAA /* Debug */,
+				2AB6DF6B2AC5700100144DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB6DF6C2AC5700100144DAA /* Build configuration list for PBXNativeTarget "WinxSelected" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB6DF6D2AC5700100144DAA /* Debug */,
+				2AB6DF6E2AC5700100144DAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB6DF502AC5700000144DAA /* Project object */;
+}
